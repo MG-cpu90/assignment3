@@ -1,6 +1,7 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 var password = document.querySelector("textarea");
+console.log(generateBtn);
 
 // var specialCharacters = [ "!", """", "#", "$", "%", "&", ', (, ), *, +, ,, -, ., /, :, ;, <, =, >, ?, @, [, \, ], ^, _, `, {, |, }, ~, ", ];
 var allCharacters = ["abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 !\"#$%&'()*+,-./:;<=>?@[\]^_`{|}~"];
@@ -26,6 +27,7 @@ console.log(numbers);
 // var uppercaseLetters = uppercaseAlphabet.split(" ");
 // var numbersString = numbers.split(" ");
 // var specialCharactersString = specialCharacters.split(" ");
+
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
@@ -70,7 +72,7 @@ else if (lowercaseLett === false && uppercaseLett === false && num === false && 
 console.log(writePassword);
 
 // Call the function
-writePassword(randomString);
+// writePassword(randomString);
 
 // var password = document.createTextNode(writePassword);
 // var addTextHere = document.getElementById("addHere");
