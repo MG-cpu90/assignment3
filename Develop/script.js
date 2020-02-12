@@ -22,8 +22,13 @@ generateBtn.addEventListener("click", writePassword);
 // Write a function that generates a random password in the "text area" box
 function writePassword() {
 
- // Clear the password
- password.value = "";
+  event.preventDefault();
+
+ // Clear the password – not working
+  if (password.value = randomString) {
+    password.value = "";
+    console.log(password.value);
+  }
 
   var lowercaseLett = confirm("Do you want your password to contain lowercase letters?");
   var uppercaseLett = confirm("Do you want your password to contain uppercase letters?");
@@ -78,4 +83,3 @@ console.log(writePassword);
 
 // Call the function
 // writePassword();
-eraseText();
