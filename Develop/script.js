@@ -2,19 +2,13 @@
 // Query selectors
 var generateBtn = document.querySelector("#generate");
 var password = document.querySelector("#password");
-console.log(generateBtn);
 
 // variables for all letters, numbers, and characters)
 var specialCharacters = " !\"#$%&'()*+,-./:;<=>?@[\]^_`{|}~";
 var lowercaseAlphabet = "abcdefghijklmnopqrstuvwxyz";
 var uppercaseAlphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var numbers = "0123456789";
-var randomString = "";
 var optionsVariable = "";
-console.log(specialCharacters);
-console.log(lowercaseAlphabet);
-console.log(uppercaseAlphabet);
-console.log(numbers);
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
@@ -24,12 +18,11 @@ function writePassword() {
 
   event.preventDefault();
 
- // Clear the password – not working
-  if (password.value = randomString) {
-    password.value = "";
-    console.log(password.value);
-  }
+// Clear previous password from screen
+ password.value === "";
+var randomString = "";
 
+// Chose password criteria
   var lowercaseLett = confirm("Do you want your password to contain lowercase letters?");
   var uppercaseLett = confirm("Do you want your password to contain uppercase letters?");
   var num = confirm("Do you want your password to contain numbers?");
@@ -42,6 +35,7 @@ if (passwordLength < 8 || passwordLength > 128) {
   var passwordLength = prompt("How long do you want your password to be? Choose a password length of at least 8 characters and no more than 128 characters.");
 }
 
+// Ensure that if someone clicks cancel for all password criteria that it asks them to choose at least one
 else if (lowercaseLett === false && uppercaseLett === false && num === false && specialChar === false) {
   alert("You must chose at least one password criteria.");
   var lowercaseLett = confirm("Do you want your password to contain lowercase letters?");
@@ -50,6 +44,7 @@ else if (lowercaseLett === false && uppercaseLett === false && num === false && 
   var specialChar = confirm("Do you want your password to contain special characters?");
 }
 
+// Use the criteria that are selected to generate the password
 if (lowercaseLett) {
   optionsVariable += lowercaseAlphabet;
 }
@@ -66,20 +61,14 @@ if (specialChar) {
   optionsVariable += specialCharacters;
 }
 
+  // Generates a random password based on the criteria that have been selected
   for (var i = 0; i < passwordLength; i++) {
-
-    // Generates a random password based on the criteria that have been selected
     // Continues to select a random character value from the string until it is the desired length
       randomString += optionsVariable.charAt(Math.floor(Math.random() * optionsVariable.length));
-      console.log(randomString);
          }
-         console.log(password);
   password.value = randomString;
 
   }
-
-// Log the function
-console.log(writePassword);
 
 // Call the function
 // writePassword();
