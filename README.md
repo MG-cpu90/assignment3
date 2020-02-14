@@ -12,6 +12,8 @@ Using JavaScript, I created a random password generator. For this assignment, I 
 
 * An "addEventListener" feature to the "Generate Password" button, so that the aforementioned prompts, confirms, and function would be initiated once the button was clicked.
 
-## Bugs
+## Bugs (now fixed)
 
-The only issue I had was that I was unable to have the password generator clear the previous password from the text box once the "Generate Password" button was pressed a second time.
+The only issue I had was that I was unable to have the password generator clear the previous password from the text box once the "Generate Password" button was pressed a second time. 
+
+* I was later able to fix this with the help of Bibek!
