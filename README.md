@@ -17,3 +17,8 @@ Using JavaScript, I created a random password generator. For this assignment, I 
 The only issue I had was that I was unable to have the password generator clear the previous password from the text box once the "Generate Password" button was pressed a second time. 
 
 * I was later able to fix this with the help of Bibek!
+
+## Links
+
+* Deployed URL Link: https://github.com/MG-cpu90/passwordgenerator
+* GitHub Repository Link: https://mg-cpu90.github.io/passwordgenerator/Develop/
