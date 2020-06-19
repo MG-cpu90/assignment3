@@ -58,6 +58,16 @@ The only issue I had was that I was unable to have the password generator clear 
 
 * I was later able to fix this with the help of Bibek!
 
+## Application Screenshot
+
+![alt text](./Assets/password_generator.png "Thankly Home Page Screen Shot")
+
+## Accessories Used
+### Languages
+* HTML
+* CSS
+* JavaScript
+
 ## Links
 
 * Deployed URL Link: https://mg-cpu90.github.io/passwordgenerator/Develop/
