@@ -60,7 +60,7 @@ The only issue I had was that I was unable to have the password generator clear 
 
 ## Application Screenshot
 
-![alt text](./Assets/password_generator.png "Thankly Home Page Screen Shot")
+![alt text](./Assets/password_generator.png "Password Generator Screen Shot")
 
 ## Accessories Used
 ### Languages
