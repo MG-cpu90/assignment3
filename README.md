@@ -53,7 +53,7 @@ THEN the password is either displayed in an alert or written to the page
 * When all prompts are answered, you will be provided with a password which is generated according to your responses
 
 ### Developer
-* In order to run the application, open the "index.html" file inside the Development folder in the browser window.
+* In order to run the application, open the "index.html" file inside the Develop folder in the browser window.
 * Once you have been redirected to the web-page, click on the "Generate Password" button
 * You will be prompted with a series of questions regarding your password criteria (note, at least one must be selected, or else an error will pop up and the prompts will restart), including:
     * The desired password length (on the condition that it is between 8 and 128 characters long)
