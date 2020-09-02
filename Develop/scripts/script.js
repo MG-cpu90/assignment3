@@ -1,4 +1,4 @@
-// Assignment Code
+// Assignment JavaScript Code
 // Query selectors
 var generateBtn = document.querySelector("#generate");
 var password = document.querySelector("#password");
