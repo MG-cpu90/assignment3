@@ -3,7 +3,7 @@
 var generateBtn = document.querySelector("#generate");
 var password = document.querySelector("#password");
 
-// variables for all letters, numbers, and characters)
+// variables for all upper and lowercase letters, numbers, and characters)
 var specialCharacters = " !\"#$%&'()*+,-./:;<=>?@[\]^_`{|}~";
 var lowercaseAlphabet = "abcdefghijklmnopqrstuvwxyz";
 var uppercaseAlphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
